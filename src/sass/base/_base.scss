@@ -11,11 +11,7 @@ html {
 
 body {
     height: 100%;
-
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 150%;
+    @include font($size: 1.8rem, $height: 2.7rem, $weight: 400);
     font-family: $font-family;
     color: $color-dark;
 }
