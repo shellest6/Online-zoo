@@ -5,6 +5,13 @@
     line-height: $height;
 }
 
+@mixin flex ($display: flex, $wrap: wrap, $justify: space-between, $align-items: center) {
+    display: $display;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align-items;
+}
+
 @mixin columns ($width) {
     display: flex;
     flex-wrap: wrap;

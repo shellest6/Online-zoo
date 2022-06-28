@@ -1,0 +1,14 @@
+.navigation {
+    @include flex();
+    column-gap: 47px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.navigation__link {
+    
+    &:hover,
+    &:active {
+        color: $color-heading;
+    }
+}

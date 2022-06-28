@@ -5,3 +5,15 @@
 
 //BASE STYLES
 @import 'base/base';
+@import 'base/logo';
+
+
+//Layouts
+@import 'layouts/container';
+@import 'layouts/columns';
+@import 'layouts/header';
+
+//Components 
+@import 'components/navigation';
+@import 'components/social';
+
