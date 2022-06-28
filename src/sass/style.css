@@ -457,6 +457,10 @@ img {
   color: #00A092;
 }
 
+.navigation__link.active {
+  color: #00A092;
+}
+
 .social {
   display: flex;
   flex-wrap: wrap;
