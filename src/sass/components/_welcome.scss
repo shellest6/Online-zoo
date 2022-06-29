@@ -1,0 +1,13 @@
+.welcome {
+    padding-top: 150px;
+}
+
+.welcome-description {
+    @include flex();
+    padding-bottom: 150px;
+
+    &__content {
+        flex-basis: 40%;
+    }
+
+}

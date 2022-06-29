@@ -491,4 +491,43 @@ img {
   background-color: #20113D;
 }
 
+.promo {
+  padding: 60px 0 130px;
+  background-image: url("../assets/img/backgrounds/promo-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -40px -45px;
+}
+
+.promo__title {
+  max-width: 880px;
+  margin-bottom: 50px;
+  font-size: 8.2rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 10rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+}
+
+.promo__text {
+  max-width: 425px;
+  margin-bottom: 50px;
+}
+
+.welcome {
+  padding-top: 150px;
+}
+
+.welcome-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
+}
+.welcome-description__content {
+  flex-basis: 40%;
+}
+
 /*# sourceMappingURL=style.css.map */
