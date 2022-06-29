@@ -1,0 +1,37 @@
+.btn {
+    border: 1px solid transparent;
+    @include font($size: 2rem, $height: 2.5rem, $weight: 600);
+    text-transform: uppercase;
+    color: $color-primary;
+
+    &:hover,
+    &:active,
+    &:focus {
+        border: 1px solid $color-primary;
+        border-radius: 5px;
+        background-color: $color-primary;
+        color: $color-light;
+    }
+
+    &_colored {
+        padding: 23px 30px;
+        border: 1px solid $color-primary;
+        border-radius: 5px;
+        background-color: $color-primary;
+        color: $color-light;
+
+        &:hover,
+        &:active,
+        &:focus {
+            background-color: #D26004;
+        }
+    }
+
+    &_bordered {
+        padding: 23px 30px;
+        border: 1px solid $color-light;
+        border-radius: 5px;
+        background-color: transparent;
+        color: $color-light;
+    }
+}

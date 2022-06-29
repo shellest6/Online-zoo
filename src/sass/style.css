@@ -392,6 +392,39 @@ img {
   transform: translateY(-4px);
 }
 
+.btn {
+  border: 1px solid transparent;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+  color: #F58021;
+}
+.btn:hover, .btn:active, .btn:focus {
+  border: 1px solid #F58021;
+  border-radius: 5px;
+  background-color: #F58021;
+  color: #FFFFFF;
+}
+.btn_colored {
+  padding: 23px 30px;
+  border: 1px solid #F58021;
+  border-radius: 5px;
+  background-color: #F58021;
+  color: #FFFFFF;
+}
+.btn_colored:hover, .btn_colored:active, .btn_colored:focus {
+  background-color: #D26004;
+}
+.btn_bordered {
+  padding: 23px 30px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #FFFFFF;
+}
+
 .container {
   max-width: 1400px;
   margin: 0 auto;
