@@ -25,6 +25,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
+    margin-top: 0;
     @include font($size: 5.4rem, $height: 6.6rem, $weight: 600);
     text-transform: uppercase;
     color: $color-heading;

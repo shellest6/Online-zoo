@@ -337,6 +337,7 @@ h1, h2, h3, h4 {
 }
 
 h2 {
+  margin-top: 0;
   font-size: 5.4rem;
   font-style: normal;
   font-weight: 600;
@@ -492,7 +493,7 @@ img {
 }
 
 .promo {
-  padding: 60px 0 130px;
+  padding: 120px 0 130px;
   background-image: url("../assets/img/backgrounds/promo-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
