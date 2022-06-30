@@ -1,6 +1,7 @@
 .logo-link {
 
     &:hover {
-        transform: translateY(-4px);
+        transform: translateY(-3px);
+        filter: invert(40%) sepia(59%) saturate(1859%) hue-rotate(146deg) brightness(91%) contrast(101%);
     }
 }

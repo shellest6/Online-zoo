@@ -1,0 +1,28 @@
+.footer {
+    padding: 75px 0 30px;
+    background-color: $color-additional;
+    color: $color-light;
+}
+
+.footer__top {
+    @include flex();
+    padding-bottom: 70px;
+    border-bottom: 1px solid $color-light;
+}
+
+
+
+.footer__bottom {
+    @include flex();
+    padding-top: 20px;
+}
+
+.copyright {
+    @include flex();
+    column-gap: 50px;
+}
+
+.logo-block {
+    @include flex();
+    column-gap: 65px;
+}

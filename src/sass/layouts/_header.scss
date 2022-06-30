@@ -3,12 +3,12 @@
 }
 
 .header__container {
-    padding: 17px 0;
+    padding: 19px 0;
     @include flex();
 
 }
 
 .header__wrapper-navigation {
     @include flex();
-    column-gap: 37px;
+    column-gap: 75px;
 }
