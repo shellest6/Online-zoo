@@ -1,20 +1,23 @@
 .promo {
-    padding: 120px 0 130px;
+    padding: 125px 0 132px;
     background-image: url('../assets/img/backgrounds/promo-bg.jpg');
     background-repeat: no-repeat;
+    background-position-y: -45px;
+    background-position-x: calc(50% - 40px);
+    background-position-x: right;
     background-size: cover;
-    background-position: -40px -45px;
 }
 
 .promo__title {
     max-width: 880px;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
     @include font($size: 8.2rem, $height: 10rem, $weight: 800);
+    font-size: calc((100vw - 480px) / (1920 - 480) * (82 - 44) + 44px);
     letter-spacing: 0.01em;
     text-transform: uppercase;
 }
 
 .promo__text {
     max-width: 425px;
-    margin-bottom: 50px;
+    padding-bottom: 2%;
 }
