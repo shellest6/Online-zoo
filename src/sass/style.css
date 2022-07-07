@@ -442,6 +442,27 @@ img {
   background-repeat: no-repeat;
 }
 
+.button-arrow {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #F58021;
+  width: 110px;
+  height: 100%;
+  border-radius: 5px;
+}
+.button-arrow span {
+  width: 24px;
+  height: 22px;
+  background-image: url("../assets/img/icons/ico-arrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.button-arrow:hover, .button-arrow:active, .button-arrow:focus {
+  background-color: #D26004;
+}
+
 .container {
   max-width: 1480px;
   padding: 0 40px;
@@ -624,6 +645,87 @@ img {
 
 .welcome-description__title {
   padding: 9% 0 2%;
+}
+
+.donation {
+  background-color: #20113D;
+  color: #FFFFFF;
+}
+
+.donation__container {
+  min-height: 221px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.donation__content {
+  max-width: 920px;
+  padding-right: 20px;
+}
+
+.donation__title {
+  padding-top: 30px;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 5.1rem;
+  color: #FFFFFF;
+}
+
+.donation__text {
+  max-width: 630px;
+}
+
+.donation-form__input-wrapper {
+  display: flex;
+  align-items: center;
+  min-width: 320px;
+  height: 74px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  padding-left: 14px;
+}
+
+.donation-form__input-wrapper::before {
+  content: "$";
+  color: #FFFFFF;
+  padding-right: 4px;
+}
+
+.donation__input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  color: #FFFFFF;
+}
+.donation__input::placeholder {
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.2rem;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.donation__input:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
 
 /*# sourceMappingURL=style.css.map */
