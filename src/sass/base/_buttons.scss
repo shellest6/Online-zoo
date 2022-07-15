@@ -36,9 +36,12 @@
         color: $color-light;
     }
 
-    &_arrow {
+    &_arrow,
+    &_arrow-yellow,
+    &_arrow-blue {
         position: relative;
         padding-right: 63px;
+
         &::after {
             position: absolute;
             content: '';
@@ -48,6 +51,34 @@
             background-image: url('../assets/img/icons/ico-arrow.svg');
             background-size: cover;
             background-repeat: no-repeat;
+        }
+    }
+
+    &_arrow-yellow {
+
+        &::after {
+            background-image: url('../assets/img/icons/ico-arrow-yellow.svg');
+        }
+
+        &:hover {
+            background-color: transparent;
+            color: $color-primary;
+        }
+    }
+
+    &_arrow-blue {
+
+        &::after {
+            background-image: url('../assets/img/icons/ico-arrow-blue.svg');
+        }
+
+        &:hover {
+            background-color: $color-primary;
+            color: $color-light;
+
+            &::after {
+                background-image: url('../assets/img/icons/ico-arrow.svg');
+            }
         }
     }
 }

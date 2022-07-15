@@ -427,11 +427,11 @@ img {
   background-color: transparent;
   color: #FFFFFF;
 }
-.btn_arrow {
+.btn_arrow, .btn_arrow-yellow, .btn_arrow-blue {
   position: relative;
   padding-right: 63px;
 }
-.btn_arrow::after {
+.btn_arrow::after, .btn_arrow-yellow::after, .btn_arrow-blue::after {
   position: absolute;
   content: "";
   margin-left: 10px;
@@ -440,6 +440,23 @@ img {
   background-image: url("../assets/img/icons/ico-arrow.svg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+.btn_arrow-yellow::after {
+  background-image: url("../assets/img/icons/ico-arrow-yellow.svg");
+}
+.btn_arrow-yellow:hover {
+  background-color: transparent;
+  color: #F58021;
+}
+.btn_arrow-blue::after {
+  background-image: url("../assets/img/icons/ico-arrow-blue.svg");
+}
+.btn_arrow-blue:hover {
+  background-color: #F58021;
+  color: #FFFFFF;
+}
+.btn_arrow-blue:hover::after {
+  background-image: url("../assets/img/icons/ico-arrow.svg");
 }
 
 .button-arrow {
@@ -726,6 +743,81 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+.favorite-animals {
+  padding-top: 7%;
+  text-align: center;
+  color: #20113D;
+}
+.favorite-animals .btn_bordered {
+  margin-bottom: 20px;
+  border: 1px solid #20113D;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #20113D;
+}
+.favorite-animals .btn_bordered:hover {
+  background-color: #20113D;
+  color: #FFFFFF;
+}
+
+.animals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 5%;
+}
+
+.favorite-animals__title {
+  max-width: 655px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.favorite-animals__text {
+  max-width: 550px;
+  margin: 0 auto;
+  margin-bottom: 5%;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.4rem;
+}
+
+.animals__link {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 440px;
+  padding-bottom: 70px;
+  border-radius: 5px;
+  background-color: #20113D;
+  color: #FFFFFF;
+  transition: all 0.5s;
+}
+.animals__link span.btn_arrow-yellow {
+  align-self: center;
+  margin-top: auto;
+  padding: 15px 55px 15px 20px;
+  border-radius: 6px;
+  transition: all 0.4s;
+}
+.animals__link:hover {
+  transform: scale(0.9);
+}
+.animals__link:hover span.btn_arrow-yellow {
+  border: 1px solid #F58021;
+}
+
+.animals__text {
+  padding: 0 45px;
+  text-align: center;
+}
+
+.animals__img {
+  flex-grow: 2;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
