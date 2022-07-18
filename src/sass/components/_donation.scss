@@ -1,6 +1,7 @@
 .donation {
     background-color: $color-additional;
     color: $color-light;
+    padding: 20px 0 40px 0;
 }
 
 .donation__container {
@@ -10,12 +11,17 @@
 
 .donation__content {
     max-width: 920px;
-    padding-right: 20px;
+    padding-right: 30px;
+
+    @include media-laptop {
+        padding-right: 0;
+    }
 }
 
 .donation__title {
     padding-top: 30px;
     @include font($size: 4.2rem, $height: 5.1rem, $weight: 500);
+    font-size: calc((100vw - 480px) / (1920 - 480) * (42 - 22) + 22px);
     color: $color-light;
 }
 
@@ -27,10 +33,19 @@
     display: flex;
     align-items: center;
     min-width: 320px;
-    height: 74px;
+    height: 74px; 
     border: 1px solid $color-light;
     border-radius: 5px;
     padding-left: 14px;
+
+    @include media-laptop {
+        min-width: 260px;
+        height: 60px;
+
+        button {
+            width: 80px;
+        }
+    }
 }
 
 .donation-form__input-wrapper::before {
@@ -52,6 +67,10 @@
         font-family: $font-family;
         text-transform: uppercase;
         color: $color-light;
+
+        @include media-laptop {
+            font-size: 1.4rem;
+        }
     }
 
     &:focus::placeholder {

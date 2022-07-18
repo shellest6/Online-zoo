@@ -19,6 +19,9 @@
             <a href="#" class="logo-link">
                 <img src="src/assets/img/logo/logo.svg" alt="logotype">
             </a>
+            <button class="mobile-menu">
+                <span></span>
+            </button>
             <div class="header__wrapper-navigation">
                 <nav>
                     <ul class="navigation">
@@ -62,204 +65,228 @@
             </div>
         </div>
     </header>
-</body>
-<main>
-    <h1 class="visually-hidden">Online Zoo</h1>
-    <section class="promo">
-        <div class="container">
-            <h2 class="promo__title">Watch your favorite animal online</h2>
-            <p class="promo__text">
-                Explore the exciting and mysterious world of wild animals in a natural setting without leaving your
-                home.
-            </p>
-            <a class="btn btn_colored btn_arrow" href="#">View Live Cam</a>
-        </div>
-    </section>
-    <section class="welcome">
-        <div class="container welcome__container">
-            <article class="welcome-description column-2">
-                <div class="welcome-description__content">
-                    <h2 class="welcome-description__title">Welcome to the Online Zoo!</h2>
-                    <p>
-                        On our website, using live webcams, fans of all ages can observe various animals. Among them,
-                        are Giant pandas, eagles, alligators, forest gorillas, African lions, and others. It is the
-                        whole natural world in real-time in front of our cameras. We hope you will enjoy watching
-                        closely and explore animals’ behavior and habitats! Note: animals are not always on view on
-                        cameras, so please check back if you don't see anything.
-                    </p>
-                </div>
-                <picture>
-                    <source srcset="src/assets/img/welcome/1-320.jpg" media="(max-width: 480px)">
-                    <source srcset="src/assets/img/welcome/1-480.jpg" media="(max-width: 765px)">
 
-                    <img src="src/assets/img/welcome/1.jpg" alt="welcome">
-                </picture>
-            </article>
-            <article class="welcome-description column-2">
-                <picture>
-                    <source srcset="src/assets/img/welcome/2-320.jpg" media="(max-width: 480px)">
-                    <source srcset="src/assets/img/welcome/2-480.jpg" media="(max-width: 765px)">
-                    <img src="src/assets/img/welcome/2.jpg" alt="welcome">
-                </picture>
-                <div class="welcome-description__content">
-                    <h2 class="welcome-description__title">How we work</h2>
-                    <p>
-                        Online Zoo is a nonprofit committed to inspiring awareness and preservation of nature and wild
-                        animals in our zoo and worldwide. Every day, our experts work to safeguard the health and
-                        wellness of the animals. To continue these efforts, we need your help. We're so grateful to our
-                        numerous supporters. All donations, large and small, go a long way to the conservation efforts
-                        of our pets.
-                    </p>
-                </div>
-            </article>
-
-        </div>
-    </section>
-    <section class="donation">
-        <div class="container donation__container">
-            <div class="donation__content">
-                <h2 class="donation__title">
-                    Your donation makes a difference! 
-                </h2>
-                <p class="donation__text">
-                    The Online Zoo's animal webcams are some of the most famous on the internet. Tune in to watch your favorite animals — live, 24/7!
+    <main>
+        <h1 class="visually-hidden">Online Zoo</h1>
+        <section class="promo">
+            <div class="container">
+                <h2 class="promo__title">Watch your <span>favorite animal</span> online</h2>
+                <p class="promo__text">
+                    Explore the exciting and mysterious world of wild animals in a natural setting without leaving your
+                    home.
                 </p>
+                <a class="btn btn_colored btn_arrow promo__btn" href="#">View Live Cam</a>
             </div>
-            <div>
-                <form action="#" class="donation-form">
-                    <h4>
-                        Quick Donate
-                    </h4>
-                    <div class="donation-form__input-wrapper">
-                        <input class="donation__input" type="number" placeholder="Donation Amount" min="1" max="9999">
-                        <button class="btn button-arrow">
-                            <span></span>
-                        </button>
+        </section>
+        <section class="welcome">
+            <div class="container welcome__container">
+                <article class="welcome-description column-2">
+                    <div class="welcome-description__content">
+                        <h2 class="welcome-description__title">Welcome to the <span>Online Zoo!</span></h2>
+                        <p>
+                            On our website, using live webcams, fans of all ages can observe various animals. Among
+                            them,
+                            are Giant pandas, eagles, alligators, forest gorillas, African lions, and others. It is the
+                            whole natural world in real-time in front of our cameras. We hope you will enjoy watching
+                            closely and explore animals’ behavior and habitats! Note: animals are not always on view on
+                            cameras, so please check back if you don't see anything.
+                        </p>
                     </div>
-                </form>
+                    <picture>
+                        <source srcset="src/assets/img/welcome/1-320.jpg" media="(max-width: 480px)">
+                        <source srcset="src/assets/img/welcome/1-480.jpg" media="(max-width: 765px)">
+
+                        <img src="src/assets/img/welcome/1.jpg" alt="welcome">
+                    </picture>
+                </article>
+                <article class="welcome-description column-2">
+                    <picture>
+                        <source srcset="src/assets/img/welcome/2-320.jpg" media="(max-width: 480px)">
+                        <source srcset="src/assets/img/welcome/2-480.jpg" media="(max-width: 765px)">
+                        <img src="src/assets/img/welcome/2.jpg" alt="welcome">
+                    </picture>
+                    <div class="welcome-description__content">
+                        <h2 class="welcome-description__title">How we work</h2>
+                        <p>
+                            Online Zoo is a nonprofit committed to inspiring awareness and preservation of nature and
+                            wild
+                            animals in our zoo and worldwide. Every day, our experts work to safeguard the health and
+                            wellness of the animals. To continue these efforts, we need your help. We're so grateful to
+                            our
+                            numerous supporters. All donations, large and small, go a long way to the conservation
+                            efforts
+                            of our pets.
+                        </p>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+        <section class="donation">
+            <div class="container donation__container">
+                <div class="donation__content">
+                    <h2 class="donation__title">
+                        Your donation makes a difference!
+                    </h2>
+                    <p class="donation__text">
+                        The Online Zoo's animal webcams are some of the most famous on the internet. Tune in to watch
+                        your favorite animals — live, 24/7!
+                    </p>
+                </div>
+                <div class="form-wrapper">
+                    <form action="#" class="donation-form">
+                        <h4 class="donation-form__title">
+                            Quick Donate
+                        </h4>
+                        <div class="donation-form__input-wrapper">
+                            <input class="donation__input" type="number" placeholder="Donation Amount" min="1"
+                                max="9999">
+                            <button class="btn button-arrow">
+                                <span></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
             </div>
 
-        </div>
-
-    </section>
-    <section class="favorite-animals">
-        <div class="container">
-            <h2 class="favorite-animals__title">
-                Care for the animals you love 
-            </h2>
-            <p class="favorite-animals__text">
-                You can help to look after the animals you love with your gift today
-            </p>
-            <div class="animals">
-                <img class="animals__img" src="src/assets/img/favorite-animals/koala.jpg" alt="koala">
+        </section>
+        <section class="favorite-animals">
+            <div class="container">
+                <h2 class="favorite-animals__title">
+                    Care for the <span> animals you love</span>
+                </h2>
+                <p class="favorite-animals__text">
+                    You can help to look after the animals you love with your gift today
+                </p>
+                <div class="animals">
+                    <picture class="animals__img">
+                        <!-- <source srcset="src/assets/img/welcome/1-320.jpg" media="(max-width: 480px)"> -->
+                        <source srcset="src/assets/img/favorite-animals/koala-1200.jpg" media="(max-width: 1400px)">
+                        <img src="src/assets/img/favorite-animals/koala.jpg" alt="welcome">
+                    </picture>
                     <a href="#" class="animals__link">
                         <h3 class="visually-hidden">Lucas</h3>
                         <img src="src/assets/img/favorite-animals/panda.jpg" alt="panda">
+                        <div>
                             <p class="animals__text">
                                 Your $30 could give Lucas a slice of panda cake, made with our secret recipe.
                             </p>
                             <span href="#" class="btn btn_arrow-yellow">Feed</span>
+                        </div>
+
                     </a>
                     <a href="#" class="animals__link">
                         <h3 class="visually-hidden">Senja</h3>
                         <img src="src/assets/img/favorite-animals/tiger.jpg" alt="tiger">
+                        <div>
                             <p class="animals__text">
                                 Your $150 will help to care for Senja, a Sumatran tiger, for three weeks.
                             </p>
                             <span href="#" class="btn btn_arrow-yellow">Feed</span>
+                        </div>
                     </a>
                     <a href="#" class="animals__link">
                         <h3 class="visually-hidden">Andy</h3>
                         <img src="src/assets/img/favorite-animals/lemur.jpg" alt="lemur">
+                        <div>
                             <p class="animals__text">
-                                With your support, we can give Andy his favorite fruits. Especially when it's not fruit season in its natural habitat.
+                                With your support, we can give Andy his favorite fruits. Especially when it's not fruit
+                                season in its natural habitat.
                             </p>
                             <span href="#" class="btn btn_arrow-yellow">Feed</span>
+                        </div>
                     </a>
                     <a href="#" class="animals__link">
                         <h3 class="visually-hidden">Sam & Lora</h3>
                         <img src="src/assets/img/favorite-animals/eagles.jpg" alt="eagles">
+                        <div>
                             <p class="animals__text">
                                 Sam & Lora have hatched and raised numerous young and will be happy with your help.
                             </p>
                             <span href="#" class="btn btn_arrow-yellow">Feed</span>
+                        </div>
                     </a>
+                </div>
+                <a href="#" class="btn btn_bordered btn_arrow-blue">choose your favorite</a>
             </div>
-            <a href="#" class="btn btn_bordered btn_arrow-blue">choose your favorite</a>
-        </div>
-    </section>
-</main>
+        </section>
+    </main>
 
-<footer class="footer">
-    <div class="container footer__container">
-        <div class="footer__top">
-            <ul class="logo-block">
-                <li>
-                    <a href="#" class="logo-link">
-                        <img src="src/assets/img/logo/logo-2.svg" alt="logotype">
-                    </a>
-                </li>
-                <li>
-                    <a class="logo-link" href="https://www.youtube.com/c/yemdigital/videos">
-                        <img src="src/assets/img/logo/yem-digital.svg" alt="logotype">
-                    </a>
-                </li>
-                <li>
-                    <a class="logo-link" href="https://rs.school/">
-                        <img src="src/assets/img/logo/rs-school.svg" alt="logotype">
-                    </a>
-                </li>
-            </ul>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__top">
+                <ul class="logo-block">
+                    <li>
+                        <a href="#" class="logo-link">
+                            <img src="src/assets/img/logo/logo-2.svg" alt="logotype">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="logo-link" href="https://www.youtube.com/c/yemdigital/videos">
+                            <img src="src/assets/img/logo/yem-digital.svg" alt="logotype">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="logo-link" href="https://rs.school/">
+                            <img src="src/assets/img/logo/rs-school.svg" alt="logotype">
+                        </a>
+                    </li>
+                </ul>
 
-            <ul class="navigation footer__navigation">
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link active">About</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link">Map</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link">Zoos</a>
-                </li>
-                <li class="navigation__item">
-                    <a href="#" class="navigation__link">Contact us</a>
-                </li>
-            </ul>
-            <div class="wrapper-btn footer__wrapper-btn">
-                <button class="btn btn_bordered btn_arrow">donate for volunteers</button>
+                <ul class="navigation footer__navigation">
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link active">About</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Map</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Zoos</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#" class="navigation__link">Contact us</a>
+                    </li>
+                </ul>
+                <div class="wrapper-btn footer__wrapper-btn">
+                    <button class="btn btn_bordered btn_arrow">donate for volunteers</button>
+                </div>
+
+
             </div>
-
-
-        </div>
-        <div class="footer__bottom">
-            <div class="copyright">
-                <p>© 2021 designer DinaK </p>
-                <p>© Yem Digital</p>
-                <p>© RSSchool</p>
+            <div class="footer__bottom">
+                <div class="copyright">
+                    <p>© 2021 designer DinaK </p>
+                    <p>© Yem Digital</p>
+                    <p>© RSSchool</p>
+                </div>
+                <ul class="social">
+                    <li class="social__item">
+                        <a class="social__link social__link_youtube" href="https://www.youtube.com/user/kansascityzoo"
+                            target="_blank">
+                            <img src="src/assets/img/icons/youtube.svg" alt="social icon youtube" width="26"
+                                height="18">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link_instagram"
+                            href="https://www.instagram.com/kansascityzoo/?hl=en" target="_blank">
+                            <img src="src/assets/img/icons/instagram.svg" alt="social icon instagram" width="24"
+                                height="24">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link social__link_fb" href="https://www.facebook.com/KansasCityZoo/"
+                            target="_blank">
+                            <img src="src/assets/img/icons/facebook.svg" alt="social icon facebook" width="11"
+                                height="22">
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <ul class="social">
-                <li class="social__item">
-                    <a class="social__link social__link_youtube" href="https://www.youtube.com/user/kansascityzoo"
-                        target="_blank">
-                        <img src="src/assets/img/icons/youtube.svg" alt="social icon youtube" width="26" height="18">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link_instagram" href="https://www.instagram.com/kansascityzoo/?hl=en"
-                        target="_blank">
-                        <img src="src/assets/img/icons/instagram.svg" alt="social icon instagram" width="24"
-                            height="24">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link social__link_fb" href="https://www.facebook.com/KansasCityZoo/"
-                        target="_blank">
-                        <img src="src/assets/img/icons/facebook.svg" alt="social icon facebook" width="11" height="22">
-                    </a>
-                </li>
-            </ul>
         </div>
-    </div>
-</footer>
+    </footer>
+    <script src="main.js"></script>
+</body>
 
 </html>

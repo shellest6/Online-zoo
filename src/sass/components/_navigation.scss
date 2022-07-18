@@ -3,6 +3,31 @@
     column-gap: 48px;
     text-transform: uppercase;
     font-weight: 600;
+    transition: .5s;
+
+    @include media-tablet {
+        position: fixed;
+        top: 0;
+        min-height: 540px;
+        right: -320px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 50px;
+        width: 320px;
+        background-color: $color-additional;
+        color: #fff;
+        z-index: 9;
+        padding: 0;
+    
+      &__link {
+        padding-bottom: 16px;
+      }
+    }
+
+    @include media-mobile-small {
+        width: 100%;
+    }
 }
 
 .navigation__link {

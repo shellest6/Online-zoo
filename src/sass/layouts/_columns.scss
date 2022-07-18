@@ -1,5 +1,18 @@
 .column-2 {
     @include columns($width: 48%);
+
+    @include media-laptop {
+        align-items: center;
+        text-align: center;
+
+
+    }
+}
+
+.column-2 > * {
+    @include media-laptop {
+        flex-basis: 100%;
+    }
 }
 
 .column-3 {

@@ -26,3 +26,9 @@
         background-color: $color-additional;
     }
 }
+
+.header .social {
+    @include media-tablet {
+        display: none;
+    }
+  }

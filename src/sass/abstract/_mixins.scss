@@ -21,3 +21,27 @@
         flex-basis: $width;
     }
 }
+
+@mixin media-1400 {
+    @media (max-width: $content-1400) { @content; }
+}
+
+@mixin media-laptop {
+    @media (max-width: $content-1200) { @content; }
+}
+
+@mixin media-1000 {
+    @media (max-width: $content-1000) { @content; }
+}
+
+@mixin media-tablet {
+    @media (max-width: $content-tablet) { @content; }
+}
+  
+@mixin media-mobile {
+    @media (max-width: $content-mobile-big) { @content; }
+}
+
+@mixin media-mobile-small {
+    @media (max-width: $content-mobile-small) { @content; }
+}

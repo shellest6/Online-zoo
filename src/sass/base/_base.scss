@@ -14,6 +14,10 @@ body {
     @include font($size: 1.8rem, $height: 2.7rem, $weight: 400);
     font-family: $font-family;
     color: $color-dark;
+
+    @include media-tablet {
+        @include font($size: 1.6rem, $height: 2rem, $weight: 400);
+    }
 }
 
 ul {
@@ -30,9 +34,13 @@ h2 {
     margin-top: 0;
     font-weight: 600;
     line-height: 1.2;
-    font-size: calc((100vw - 480px) / (1920 - 480) * (54 - 34) + 34px);
+    font-size: calc((100vw - 480px) / (1920 - 480) * (54 - 30) + 30px);
     text-transform: uppercase;
     color: $color-heading;
+
+    span {
+        display: block;
+    }
 }
 
 h3 {
@@ -43,6 +51,7 @@ h3 {
 
 h4 {
     @include font($size: 2.6rem, $height: 3.4rem, $weight: 500);
+    font-size: calc((100vw - 480px) / (1920 - 480) * (26 - 18) + 18px);
     color: $color-light;
 }
 

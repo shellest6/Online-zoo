@@ -2,4 +2,8 @@
     max-width: 1480px;
     padding: 0 40px;
     margin: 0 auto;
+
+    @include media-tablet {
+        padding: 0 22px;
+    }
 }
