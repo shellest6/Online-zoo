@@ -708,6 +708,7 @@ img {
 
 .navigation__link.active {
   color: #00A092;
+  cursor: default;
 }
 
 .mobile-menu {
