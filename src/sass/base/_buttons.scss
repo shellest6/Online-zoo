@@ -1,5 +1,6 @@
 .btn {
     border: 1px solid transparent;
+    background-color: transparent;
     @include font($size: 1.8rem, $height: 2.2rem, $weight: 600);
     text-transform: uppercase;
     color: $color-primary;
