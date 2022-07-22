@@ -10,10 +10,11 @@
 }
 
 .donation__content {
-    max-width: 920px;
+    max-width: 70%;
     padding-right: 30px;
 
     @include media-laptop {
+        max-width: 100%;
         padding-right: 0;
     }
 }
@@ -27,6 +28,10 @@
 
 .donation__text {
     max-width: 630px;
+
+    &_zoo {
+        max-width: 100%;
+    }
 }
 
 .donation-form__input-wrapper {

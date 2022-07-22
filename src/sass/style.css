@@ -938,11 +938,12 @@ img {
 }
 
 .donation__content {
-  max-width: 920px;
+  max-width: 70%;
   padding-right: 30px;
 }
 @media (max-width: 1200px) {
   .donation__content {
+    max-width: 100%;
     padding-right: 0;
   }
 }
@@ -959,6 +960,9 @@ img {
 
 .donation__text {
   max-width: 630px;
+}
+.donation__text_zoo {
+  max-width: 100%;
 }
 
 .donation-form__input-wrapper {
@@ -1159,11 +1163,10 @@ input[type=number] {
 }
 .parameter-wrapper button {
   align-self: flex-end;
-  margin-left: -160px;
+  margin-left: -5%;
 }
 
 .parameter {
-  max-width: 490px;
   margin: 0;
 }
 .parameter__termin {
