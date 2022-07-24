@@ -69,7 +69,28 @@
         <h1 class="visually-hidden">Contacts</h1>
        
         <section class="contacts">
-
+            <div class="container">
+                <img class="contacts__img" src="../assets/img/contacts/contacts.jpg" alt="contacts img">
+                <div class="contacts__content column-2">
+                    <div class="contacts__desc">
+                        <h2>Get in touch</h2>
+                        <p>
+                            Whether you have a question, or would like to say hello, we're happy to hear from you. Please use the form to send us a message and we'll get back to you as soon as we can. Whether you have a question, or would like to say hello, we're happy to hear from you. Please use the form to send us a message and we'll get back to you as soon as we can. 
+                        </p>
+                    </div>
+                    <form class="contact-form" method="POST" action="#">
+                        <label for="name"><span>*</span> Your Name</label>
+                        <input type="text" placeholder="First and last name" autocomplete="on" name="name" id="name" required>
+                        <label for="email"><span>*</span> Your Email Address</label>
+                        <input type="email" placeholder="Enter your email" autocomplete="on" name="email" id="email" required>
+                        <label for="subject"><span>*</span> Subject</label>
+                        <input type="text" placeholder="Enter the subject" autocomplete="on" name="subject" id="subject" required>
+                        <label for="message"><span>*</span> Message</label>
+                        <textarea placeholder="Enter your message" id="message"></textarea>
+                        <button class="btn btn_arrow btn_colored" data-i18="send-message"><span>Send message</span></button>
+                    </form>
+                </div>
+            </div>
         </section>
         
     </main>
